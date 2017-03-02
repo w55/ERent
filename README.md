@@ -38,4 +38,10 @@ Take a look at layers code:
 </ul>
 <hr>
 
+Here are some screenshots:
+<br>
+Index view: <img width="800" src="Screenshots/Index_html.jpg" alt="Index_html.jpg" />
+<hr>
+Details view: <img width="800" src="Screenshots/Details_html.jpg" alt="Details_html.jpg" />
+<hr>
 
