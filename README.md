@@ -40,8 +40,10 @@ Take a look at layers code:
 
 Here are some screenshots:
 <br>
-Index view: <img width="800" src="Screenshots/Index_html.jpg" alt="Index_html.jpg" />
+Index view:
+<br><img width="600" src="Screenshots/Index_html.jpg" alt="Index_html.jpg" />
 <hr>
-Details view: <img width="800" src="Screenshots/Details_html.jpg" alt="Details_html.jpg" />
+Details view:
+<br><img width="600" src="Screenshots/Details_html.jpg" alt="Details_html.jpg" />
 <hr>
 
