@@ -8,3 +8,34 @@ This is a 3-layer MVC5 application contains <b>BLL</b>, <b>DAL</b> and <b>WEB</b
 <img src="Screenshots/NLayer.jpg" alt="schema" width="300" />
 <hr>
 Screenshots of some pages here: <a href="Screenshots/Index_html.jpg">screenshot #1</a>, <a href="Screenshots/Details_html.jpg">screenshot #2</a>
+<hr>
+Take a look at layers code: 
+
+<b>DAL</b>: 
+<ul>
+	<li>EF: <a href="ERent.DAL/EF/RentContext.cs">RentContext.cs</a>,</li>
+	<li>Entities: <a href="ERent.DAL/Entities/Salesman.cs">Salesman.cs</a>,</li>
+	<li>Interfaces: <a href="ERent.DAL/Interfaces/IRepository.cs">IRepository.cs</a>,</li>
+	<li>Repositories: <a href="ERent.DAL/Repositories/ApartmentRepository.cs">ApartmentRepository.cs</a>,</li>
+	<li>Repositories: <a href="ERent.DAL/Repositories/SalesmanRepository.cs">SalesmanRepository.cs</a>,</li>
+	<li>Repositories: <a href="ERent.DAL/Repositories/EFUnitOfWork.cs">EFUnitOfWork.cs</a></li>
+</ul>
+
+<b>BLL</b>: 
+<ul>
+	<li>DTO: <a href="ERent.BLL/DTO/SalesmanDTO.cs">SalesmanDTO.cs</a>,</li>
+	<li>Infrastructure: <a href="ERent.BLL/Infrastructure/ServiceModule.cs">ServiceModule.cs</a>,</li>
+	<li>Infrastructure: <a href="ERent.BLL/Infrastructure/ValidationException.cs">ValidationException.cs</a>,</li>
+	<li>Interfaces: <a href="ERent.BLL/Interfaces/IAdvertService.cs">IAdvertService.cs</a>,</li>
+	<li>Services: <a href="ERent.BLL/Services/AdvertService.cs">AdvertService.cs</a></li>
+</ul>
+
+<b>WEB</b>: 
+<ul>
+	<li>Controllers: <a href="ERent.WEB/Controllers/HomeController.cs">HomeController.cs</a>,</li>
+	<li>Models: <a href="ERent.WEB/Models/SalesmanViewModel.cs">SalesmanViewModel.cs</a>,</li>
+	<li>Util: <a href="ERent.WEB/Util/NinjectDependencyResolver.cs">NinjectDependencyResolver.cs</a></li>
+</ul>
+<hr>
+
+
