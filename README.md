@@ -7,8 +7,6 @@ This is a 3-layer MVC5 application contains <b>BLL</b>, <b>DAL</b> and <b>WEB</b
 <hr>
 <img src="Screenshots/NLayer.jpg" alt="schema" width="300" />
 <hr>
-Screenshots of some pages here: <a href="Screenshots/Index_html.jpg">screenshot #1</a>, <a href="Screenshots/Details_html.jpg">screenshot #2</a>
-<hr>
 Take a look at layers code: 
 
 <b>DAL</b>: 
@@ -38,12 +36,14 @@ Take a look at layers code:
 </ul>
 <hr>
 
-Here are some screenshots:
-<br>
-Index view:
+<p>Here are some screenshots:</p>
+<p>
+<b>Index view</b>:
 <br><img width="600" src="Screenshots/Index_html.jpg" alt="Index_html.jpg" />
-<hr>
-Details view:
+</p>
+
+<p>
+<b>Details view</b>:
 <br><img width="600" src="Screenshots/Details_html.jpg" alt="Details_html.jpg" />
-<hr>
+</p>
 
