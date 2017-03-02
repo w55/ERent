@@ -3,7 +3,7 @@
 <hr>
 Some key code snippets only
 <br>
-This is a 3-layer MVC5 application contains <b>BLL</b>, <b>DAL</b> and <b>WEB</b> layers with this schema:
+This is a 3-layer MVC5 application contains <b>DAL</b>, <b>BLL</b> and <b>WEB</b> layers with this schema:
 <hr>
 <img src="Screenshots/NLayer.jpg" alt="schema" width="300" />
 <hr>
