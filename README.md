@@ -1,5 +1,5 @@
 # ERent
-<b>N-layer</b> MVC5 application using <b>EntityFramewok</b>, <b>Ninject.MVC5</b> and <b>Automapper</b>.
+<b>N-layer</b> ASP.NET MVC5 application using frameworks: <b>EntityFramewok</b>, <b>Ninject</b>, <b>Ninject.MVC5</b> and <b>Automapper</b>.
 <hr>
 Some key code snippets only
 <br>
