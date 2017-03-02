@@ -5,6 +5,6 @@ Some key code snippets only
 <br>
 This is a 3-layer MVC5 application contains <b>BLL</b>, <b>DAL</b> and <b>WEB</b> layers with this schema:
 <hr>
-<img src="Screenshots/NLayer.jpg" alt="schema" />
+<img src="Screenshots/NLayer.jpg" alt="schema" width="200" />
 <hr>
 Screenshots of some pages here: <a href="Screenshots/Index_html.jpg">screenshot #1</a>, <a href="Screenshots/Details_html.jpg">screenshot #2</a>
