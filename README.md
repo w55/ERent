@@ -41,6 +41,7 @@ Take a look at layers code:
 <b>Index view</b>:
 <br><img width="600" src="Screenshots/Index_html.jpg" alt="Index_html.jpg" />
 </p>
+<hr>
 
 <p>
 <b>Details view</b>:
