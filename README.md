@@ -9,7 +9,7 @@ This is a 3-layer MVC5 application contains <b>DAL</b>, <b>BLL</b> and <b>WEB</b
 <hr>
 Take a look at layers code: 
 
-<b>DAL</b>: 
+<b>DAL</b> (Data Access Layer): 
 <ul>
 	<li>EF: <a href="ERent.DAL/EF/RentContext.cs">RentContext.cs</a>,</li>
 	<li>Entities: <a href="ERent.DAL/Entities/Salesman.cs">Salesman.cs</a>,</li>
@@ -19,7 +19,7 @@ Take a look at layers code:
 	<li>Repositories: <a href="ERent.DAL/Repositories/EFUnitOfWork.cs">EFUnitOfWork.cs</a></li>
 </ul>
 
-<b>BLL</b>: 
+<b>BLL</b> (Business Logic Layer): 
 <ul>
 	<li>DTO: <a href="ERent.BLL/DTO/SalesmanDTO.cs">SalesmanDTO.cs</a>,</li>
 	<li>Infrastructure: <a href="ERent.BLL/Infrastructure/ServiceModule.cs">ServiceModule.cs</a>,</li>
@@ -28,7 +28,7 @@ Take a look at layers code:
 	<li>Services: <a href="ERent.BLL/Services/AdvertService.cs">AdvertService.cs</a></li>
 </ul>
 
-<b>WEB</b>: 
+<b>WEB</b> (Presentation Layer): 
 <ul>
 	<li>Controllers: <a href="ERent.WEB/Controllers/HomeController.cs">HomeController.cs</a>,</li>
 	<li>Models: <a href="ERent.WEB/Models/SalesmanViewModel.cs">SalesmanViewModel.cs</a>,</li>
