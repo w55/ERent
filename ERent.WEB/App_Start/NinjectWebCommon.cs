@@ -43,9 +43,9 @@ namespace ERent.WEB.App_Start
         /// <returns>The created kernel.</returns>
         private static IKernel CreateKernel()
         {
-            // в проекте BLL также был создан модуль, который сопоставлял IUnitOfWork с EFUnitOfWork и передавал им название подключения. 
-            // устанавливаем строку подключения: DefaultConnection
-			//
+            // РІ РїСЂРѕРµРєС‚Рµ BLL С‚Р°РєР¶Рµ Р±С‹Р» СЃРѕР·РґР°РЅ РјРѕРґСѓР»СЊ, РєРѕС‚РѕСЂС‹Р№ СЃРѕРїРѕСЃС‚Р°РІР»СЏР» IUnitOfWork СЃ EFUnitOfWork Рё РїРµСЂРµРґР°РІР°Р» РёРј РЅР°Р·РІР°РЅРёРµ РїРѕРґРєР»СЋС‡РµРЅРёСЏ. 
+            // СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј СЃС‚СЂРѕРєСѓ РїРѕРґРєР»СЋС‡РµРЅРёСЏ: DefaultConnection
+	    //
             var modules = new INinjectModule[] { new ServiceModule("DefaultConnection") };
             var kernel = new StandardKernel(modules);
 
@@ -70,8 +70,8 @@ namespace ERent.WEB.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            // регистрируем свой сопоставитель зависимостей:
-            // интерфейс IAdvertService сопоставляется с классом AdvertService.
+            // СЂРµРіРёСЃС‚СЂРёСЂСѓРµРј СЃРІРѕР№ СЃРѕРїРѕСЃС‚Р°РІРёС‚РµР»СЊ Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№:
+            // РёРЅС‚РµСЂС„РµР№СЃ IAdvertService СЃРѕРїРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ СЃ РєР»Р°СЃСЃРѕРј AdvertService.
             //
             System.Web.Mvc.DependencyResolver.SetResolver(new ERent.WEB.Util.NinjectDependencyResolver(kernel));
         }        
